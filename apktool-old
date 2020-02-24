@@ -1,0 +1,5 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+
+java -jar $DIR/lib/apktool_2.0.3.jar $@
